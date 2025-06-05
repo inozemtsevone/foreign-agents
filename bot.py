@@ -3,7 +3,8 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 from docx import Document
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv('BOT_TOKEN')
+print("TOKEN =", TOKEN)  # временно для отладки
 
 INOAGENTS = ["Иван Иванов", "Мария Петрова", "Алексей Смирнов"]
 
